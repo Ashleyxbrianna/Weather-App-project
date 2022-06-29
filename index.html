@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/47e3cd5382.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa&family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Weather Forcast</h1>
+      <br />
+      <form id="weather-form">
+        <input
+          class="typecity"
+          type="search"
+          placeholder="enter your city"
+          id="input-city"
+        />
+        <input class="button" type="submit" value="Ta-da!" id="button-search" />
+      </form>
+      <br />
+      <i class="fa-solid fa-cloud-rain raincloud"></i>
+
+      <h2 id="new-city">Salem,</h2>
+      <h2 id="temperature">65° F</h2>
+      <br />
+      <p>
+        Wind: 5mph
+        <br />
+        precipitation: 78%
+      </p>
+      <h3 id="date-and-time">Friday</h3>
+
+      <div class="row">
+        <div class="col-1">Sunday</div>
+        <div class="col-1">Monday</div>
+        <div class="col-1">Tuesday</div>
+        <div class="col-1">Wednesday</div>
+        <div class="col-1">Thursday</div>
+        <div class="col-1">Friday</div>
+        <div class="col-1">Saturday</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">56°</div>
+        <div class="col-1">50°</div>
+        <div class="col-1">76°</div>
+        <div class="col-1">56°</div>
+        <div class="col-1">56°</div>
+        <div class="col-1">86°</div>
+        <div class="col-1">57°</div>
+      </div>
+
+      <br />
+      <span class="coder">Code by Ashley White</span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
