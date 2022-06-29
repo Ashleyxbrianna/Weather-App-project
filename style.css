@@ -1,0 +1,78 @@
+.container {
+  text-align: center;
+  background: rgb(221, 168, 206);
+  background: radial-gradient(
+    circle,
+    rgba(221, 168, 206, 1) 0%,
+    rgba(241, 229, 203, 1) 100%
+  );
+  padding: 67px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 30px #4a403a;
+}
+
+.col-1 {
+  margin: 0 auto;
+  padding: 45px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  color: #5f7464;
+}
+
+.button {
+  border-radius: 30px;
+  background-color: #f7e9d7;
+  color: #85586f;
+  transition: all ease-in-out 200ms;
+}
+.btn {
+  border-radius: 30px;
+  background-color: #f7e9d7;
+  color: #85586f;
+  transition: all ease-in-out 200ms;
+}
+
+.button:hover {
+  background-color: #85586f;
+  color: #f7e9d7;
+}
+
+.typecity {
+  border-radius: 30px;
+  background-color: #f7e9d7;
+  color: #85586f;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: #85586f;
+}
+
+h2 {
+  position: relative;
+  top: 20px;
+  font-family: "Dosis", sans-serif;
+  font-size: 50px;
+  color: #4a403a;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #5f7464;
+}
+
+.raincloud {
+  color: #826f66;
+  position: relative;
+  top: 14px;
+  font-size: 40px;
+}
+
+.coder {
+  font-family: "Dosis", sans-serif;
+  color: #85586f;
+  font-size: 15px;
+}
